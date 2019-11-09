@@ -5,14 +5,20 @@
   
 
   
-  <title>Hexo</title>
+  <title>选择排序与冒泡排序的对比 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
+  <meta name="description" content="选择排序与冒泡排序的对比一，选择排序1，算法原理      给定一个数组，这种思想首先假定数组的首元素为最大或者最小的.此时就要利用3个变量表示元素的下标。一个表示当前，一个表示找到的最大或者最小的下标，一个用于存放每次循环中最大值的下标。在掌握了程序的基本思想之后，再进行排序。找到最大的下标后赋给每次除非的那个最大的下标。找到之后判断所假设的当前值是否为此次循环的最大值，如果不是，就交换最大与当">
+<meta property="og:type" content="article">
+<meta property="og:title" content="选择排序与冒泡排序的对比">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;09&#x2F;%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E7%9A%84%E5%AF%B9%E6%AF%94&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="选择排序与冒泡排序的对比一，选择排序1，算法原理      给定一个数组，这种思想首先假定数组的首元素为最大或者最小的.此时就要利用3个变量表示元素的下标。一个表示当前，一个表示找到的最大或者最小的下标，一个用于存放每次循环中最大值的下标。在掌握了程序的基本思想之后，再进行排序。找到最大的下标后赋给每次除非的那个最大的下标。找到之后判断所假设的当前值是否为此次循环的最大值，如果不是，就交换最大与当">
 <meta property="og:locale" content="en">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191109215504118.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTgwNTc5OA==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191109213953549.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTgwNTc5OA==,size_16,color_FFFFFF,t_70">
+<meta property="og:updated_time" content="2019-11-09T13:58:01.612Z">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191109215504118.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTgwNTc5OA==,size_16,color_FFFFFF,t_70">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -59,9 +65,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-选择排序与冒泡排序的对比" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-选择排序与冒泡排序的对比" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/11/09/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E7%9A%84%E5%AF%B9%E6%AF%94/" class="article-date">
   <time datetime="2019-11-09T13:58:01.468Z" itemprop="datePublished">2019-11-09</time>
@@ -74,8 +78,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/11/09/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F%E4%B8%8E%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F%E7%9A%84%E5%AF%B9%E6%AF%94/">选择排序与冒泡排序的对比</a>
+    <h1 class="article-title" itemprop="name">
+      选择排序与冒泡排序的对比
     </h1>
   
 
@@ -96,84 +100,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-上传github步骤" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/10/31/%E4%B8%8A%E4%BC%A0github%E6%AD%A5%E9%AA%A4/" class="article-date">
-  <time datetime="2019-10-31T03:10:57.263Z" itemprop="datePublished">2019-10-31</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/10/31/%E4%B8%8A%E4%BC%A0github%E6%AD%A5%E9%AA%A4/">上传github步骤</a>
-    </h1>
+    <a href="/2019/10/31/%E4%B8%8A%E4%BC%A0github%E6%AD%A5%E9%AA%A4/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">上传github步骤</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>#使用Git将本地文件上传到github的步骤<br>##一，先建立git仓库<br>    复制上面的网址备用。<img src="https://img-blog.csdnimg.cn/20191031110742762.png" alt="在这里插入图片描述"><br>    打开git bash，如何一直使用cd到本地项目根目录，再执行git init<br>   ** (git init//把这个目录变成git可以管理的仓库)**<br>##二，将项目的文件添加到仓库中<br>    执行git add .<br>    <strong>(git add README.md//文件添加到仓库)</strong><br>    <strong>(git add .//不但可以跟单一文件，还可以跟通配符，更可以根目录。一个点就把当前目录下所以未追逐的文件全部add了）</strong><br>    ##三，将add文件commit到仓库<br>    执行git commit -m“这里写注释语句”//把文件提交到仓库<br>    ##四，将本地仓库关联到github上<br>    执行git remote add origin 这里输入刚才复制的仓库地址<br>    ##五，上传前，要先pull一下，执行以下命令<br>    git push origin master<br>    ##六，上传代码到github远程仓库<br>    执行git push -u origin master//把本地库的使用内容推送到远程库上<br>    <img src="https://img-blog.csdnimg.cn/20191031110817328.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTgwNTc5OA==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>    ##七，正常操作可能会出现的问题<br>    中间可能会让你输入Username和Password<br>    如果出现下面问题按照提示输入邮箱跟用户名<img src="https://img-blog.csdnimg.cn/20191031110851426.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTgwNTc5OA==,size_16,color_FFFFFF,t_70" alt="如果这里插入图片描述"></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/10/31/%E4%B8%8A%E4%BC%A0github%E6%AD%A5%E9%AA%A4/" data-id="ck2e5314p0000hwvj3bddgc24" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-你好-Hexo" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2019/10/30/%E4%BD%A0%E5%A5%BD-Hexo/" class="article-date">
-  <time datetime="2019-10-30T11:30:34.000Z" itemprop="datePublished">2019-10-30</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2019/10/30/%E4%BD%A0%E5%A5%BD-Hexo/">你好,Hexo</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/10/30/%E4%BD%A0%E5%A5%BD-Hexo/" data-id="ck2d947wq0000t4vj1suh9qro" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
 
 </section>
         
